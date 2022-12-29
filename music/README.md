@@ -19,12 +19,11 @@ Don't know how to deal with paths?
 
 If your song file is inside the root folder of your map:
 ```
-.
 └── map/
-    ├── yourMap.map
-    ├── meta.xml
-    ├── music.lua
-    └── song.mp3*
+  ├── yourMap.map
+  ├── meta.xml
+  ├── music.lua
+  └── song.mp3*
 ```
 
 Leave it like this:
@@ -36,13 +35,12 @@ local songPath = 'song.mp3'
 If your song file is inside a sub folder: 
 
 ```
-.
 └── map/
-    ├── some-folder/
-    │   └── song.mp3*
-    ├── yourMap.map
-    ├── meta.xml
-    └── music.lua
+  ├── some-folder/
+  │   └── song.mp3*
+  ├── yourMap.map
+  ├── meta.xml
+  └── music.lua
 ```
 
 Make sure you add the sub folder name at the beginning of the path.
