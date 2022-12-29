@@ -35,3 +35,4 @@ To create a new marker, add a new entry in the `markers` table.
 `g`: Green. (number)</br>
 `b`: Blue. (number)</br>
 `a`: Alpha. (number)</br>
+`callback`: Callback function that will be triggered when the player (vehicle) will hit the marker. The `vehicle` variable is also accessible inside this function. (function)
