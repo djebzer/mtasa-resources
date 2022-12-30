@@ -1,0 +1,4 @@
+<meta>
+	<info name='Warps system' description='Warping system for race' author='djebzer' version='1.0.0' />
+	<script src='client.lua' type='client' />
+</meta>

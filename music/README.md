@@ -43,7 +43,7 @@ If your song file is inside a sub folder:
   └── music.lua
 ```
 
-Make sure you add the sub folder name at the beginning of the path.
+Make sure you add the sub folder name at the beginning of the path:
 ```lua
 local songPath = 'some-folder/song.mp3'
 ```
