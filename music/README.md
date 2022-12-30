@@ -7,8 +7,8 @@ Want to add a song on your map? Simply add this file in your map and make sure y
 3. Add these lines inside your `meta.xml` file:
 ```xml
 <meta>
-  <script src='music.lua' type='client' />
-  <file src='song.mp3'>
+  <script src='music.lua' type='client' /> <!-- just add this line -->
+  <file src='song.mp3'> <!-- and this one -->
   <!-- other content... -->
 </meta>
 ```

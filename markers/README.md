@@ -8,7 +8,7 @@ The system reads the table, automatically creates the markers and adds handlers 
 2. Add this line inside your `meta.xml` file:
 ```xml
 <meta>
-  <script src='markers.lua' type='client' />
+  <script src='markers.lua' type='client' /> <!-- just add this line -->
   <!-- other content... -->
 </meta>
 ```
