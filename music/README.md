@@ -17,7 +17,7 @@ Make sure the paths to the files are correct.
 ## Help
 Don't know how to deal with paths?
 
-If your song file is inside the root folder of your map:
+If your song file is inside the root directory of your map:
 ```
 └── map/
   ├── yourMap.map
