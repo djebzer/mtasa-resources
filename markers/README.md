@@ -26,13 +26,16 @@ To create a new marker, add a new entry in the `markers` table.
   },
 ```
 
-`x`: X axis. (float)</br>
-`y`: Y axis. (float)</br>
-`z`: Z axis. (float)</br>
-`type`: Marker type. (string)</br>
-`size`: Marker size. (number)</br>
-`r`: Red. (number)</br>
-`g`: Green. (number)</br>
-`b`: Blue. (number)</br>
-`a`: Alpha. (number)</br>
-`callback`: Callback function that will be triggered when the player (vehicle) will hit the marker. The `vehicle` variable is also accessible inside this function. (function)
+## Documentation
+| Variable | Description | Data type |
+|:----------|:--------------|:-----------|
+|`x`| The x coordinate of the marker. | `float`|
+|`y`| The y coordinate of the marker. | `float`|
+|`z`| The z coordinate of the marker. | `float`|
+|`type`| Marker type. | `string` |
+|`size`| Marker size. | `number` |
+|`r`| Red color level of the marker. | `number` |
+|`g`| Green color level of the marker. | `number` |
+|`b`| Blue color level of the marker. | `number` |
+|`a`| Alpha level of the marker. | `number` |
+|`callback`| Callback function that will be called when player's vehicle hits the marker. | `function` |
